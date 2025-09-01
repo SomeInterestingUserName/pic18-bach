@@ -20,4 +20,4 @@ Simply add `main.s` to a new MPLAB X IDE project and configure for your specific
 ## Credits
 * Solfeggietto composed by CPE Bach
 * Transcribed from sheet music in Anthologie Classique no. 54 via imslp.org (https://imslp.org/wiki/File:PMLP06627-Bach_CPE_Solfeggio_220.pdf)
-* Original template code derived from PICDEM2+ demo code by Microchip Technology Inc. 2002
+* Original template code (delays, initializations, and whatnot) derived from PICDEM2+ demo by Microchip Technology Inc. 2002
