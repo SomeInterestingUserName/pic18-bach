@@ -9,10 +9,13 @@ This program also shows how to use the table registers to efficiently read out l
 The LEDs also flash while the tune plays, because why not.
 
 ## Running the Program
-This program was tested on a first-generation PICDEM2+ dev board fitted with a PIC18F452 and should work right away. If you don't have this board, the minimal hardware setup is:
+The code builds on Microchip's XC8 assembler (pic-as 3.0 in my case). This program was tested on a first-generation PICDEM2+ dev board fitted with a PIC18F452 and should work right away. If you don't have this board, the minimal hardware setup is:
 * External oscillator at 4 MHz (or crystal if you want to tweak the config bits)
+    * Bonus points: Hook up an adjustable frequency source like a function generator and see how frequency affects the pitch/tempo of the melody
 * Piezo buzzer on RC2 (Pin 17 on the 40-pin DIP 18F452)
 * LEDs on RB3-RB0 (if you want extra flashiness)
+
+Simply add `main.s` to a new MPLAB X IDE project and configure for your specific device and programmer settings. 
 
 ## Credits
 * Solfeggietto composed by CPE Bach
